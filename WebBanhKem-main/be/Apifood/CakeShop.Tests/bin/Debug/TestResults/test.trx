@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="7c8b2818-0c0f-4511-a6d9-ab02a7c64a87" name="thien@DESKTOP-G1ECRK6 2022-12-03 13:50:09" runUser="DESKTOP-G1ECRK6\thien" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2022-12-03T13:50:09.5473802+07:00" queuing="2022-12-03T13:50:09.5473802+07:00" start="2022-12-03T13:50:08.4559739+07:00" finish="2022-12-03T13:50:10.0622768+07:00" />
+  <TestSettings name="default" id="05385c19-fa26-42d2-bf58-9f75d66f2c76">
+    <Deployment runDeploymentRoot="thien_DESKTOP-G1ECRK6_2022-12-03_13_50_09" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="d93796ac-b70a-45c0-8958-cb60349babb4" testId="274b245a-cbd9-cf4d-aa18-0a01d76891dc" testName="PostProduct_ShouldPass" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0044523" startTime="2022-12-03T13:50:09.8991792+07:00" endTime="2022-12-03T13:50:09.9041858+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d93796ac-b70a-45c0-8958-cb60349babb4" />
+    <UnitTestResult executionId="a67f8dbb-2321-45d4-a163-6c7cbc214001" testId="76c4d96b-7d0c-d16c-988b-14d86da6d1cc" testName="Login_ShouldFail_WhenDifferenUsernamOrPassword" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0041599" startTime="2022-12-03T13:50:09.8941800+07:00" endTime="2022-12-03T13:50:09.8991792+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a67f8dbb-2321-45d4-a163-6c7cbc214001" />
+    <UnitTestResult executionId="491a9cb2-9e52-40a1-ab13-c5b2321bce92" testId="eda6d204-10c8-e5af-8cb4-1c33b463f3e4" testName="PutProduct_ShouldFail_WhenDifferentID" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0001449" startTime="2022-12-03T13:50:09.8841886+07:00" endTime="2022-12-03T13:50:09.8851885+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="491a9cb2-9e52-40a1-ab13-c5b2321bce92" />
+    <UnitTestResult executionId="d355c80f-4b9d-4152-9d97-0d59f519a358" testId="efefff88-9beb-6e8e-8283-51f49b901a25" testName="Product_TestMissingImg" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0005140" startTime="2022-12-03T13:50:09.5543760+07:00" endTime="2022-12-03T13:50:09.5553752+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d355c80f-4b9d-4152-9d97-0d59f519a358" />
+    <UnitTestResult executionId="31faf3b0-0846-48c4-8b16-454ecbea2422" testId="efff4de6-2564-4fab-a049-881a5b767d6b" testName="Customer_TestNameShouldCorrectFormat (Nguyen Van A)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0003284" startTime="2022-12-03T13:50:09.4994288+07:00" endTime="2022-12-03T13:50:09.5364079+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31faf3b0-0846-48c4-8b16-454ecbea2422" />
+    <UnitTestResult executionId="7e71349a-0137-4a64-8f06-d578b63879ff" testId="36ed6ca4-0db2-2d0a-6cb0-0c59a9e924cf" testName="SearchProductName_ShouldPass" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0047652" startTime="2022-12-03T13:50:09.9131946+07:00" endTime="2022-12-03T13:50:09.9181678+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e71349a-0137-4a64-8f06-d578b63879ff" />
+    <UnitTestResult executionId="3629ee79-0767-41a2-b045-a09fba309ef1" testId="6357c20f-40a7-14c0-d874-401307dea887" testName="GetProducts_ShouldReturnAllProducts" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0003783" startTime="2022-12-03T13:50:09.9091943+07:00" endTime="2022-12-03T13:50:09.9091943+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3629ee79-0767-41a2-b045-a09fba309ef1" />
+    <UnitTestResult executionId="d84f4512-3520-4061-98fe-29bd17fef2f7" testId="b8b308c8-36b8-4738-9ada-beda14c59be6" testName="Customer_TestPhoneShouldNotCorrectFormat (0)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0001040" startTime="2022-12-03T13:50:09.5473802+07:00" endTime="2022-12-03T13:50:09.5483797+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d84f4512-3520-4061-98fe-29bd17fef2f7" />
+    <UnitTestResult executionId="52aeca98-bd65-46ea-a1a4-86de260fe1d4" testId="7aab228c-f89b-7c66-057a-ce05b15547a0" testName="PutProduct_ShouldReturnStatusCode" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0003700" startTime="2022-12-03T13:50:09.9061962+07:00" endTime="2022-12-03T13:50:09.9071953+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="52aeca98-bd65-46ea-a1a4-86de260fe1d4" />
+    <UnitTestResult executionId="33fa9d48-f5dc-4dd2-8450-0bd64ef2cedb" testId="b6ee13d5-d303-44c6-b54b-8636af897275" testName="Customer_TestNameShouldNotCorrectFormat (Nguyen Van 1)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0000868" startTime="2022-12-03T13:50:09.5364079+07:00" endTime="2022-12-03T13:50:09.5374076+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33fa9d48-f5dc-4dd2-8450-0bd64ef2cedb" />
+    <UnitTestResult executionId="462117b1-1a70-4409-843d-388620ab08f9" testId="4ff9ca89-46e5-54aa-a1ae-18c5583da2f9" testName="Product_TestMissingDes" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0004582" startTime="2022-12-03T13:50:09.5553752+07:00" endTime="2022-12-03T13:50:09.5553752+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="462117b1-1a70-4409-843d-388620ab08f9" />
+    <UnitTestResult executionId="f31cae0c-a164-490b-bca8-b87ab8e91a9e" testId="fc9ecbd7-6723-4be0-8313-600893600228" testName="Customer_TestMissingPassword" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0003791" startTime="2022-12-03T13:50:09.4974298+07:00" endTime="2022-12-03T13:50:09.4984295+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f31cae0c-a164-490b-bca8-b87ab8e91a9e" />
+    <UnitTestResult executionId="2aea7d3a-43cb-4a4e-9ee1-3f84b71b1a40" testId="f8ff43a8-7de9-46ef-952c-b5971c321722" testName="Product_TestDescriptionShouldCorrectFormat (Duoc xuat xu tu Cali)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0000515" startTime="2022-12-03T13:50:09.5583734+07:00" endTime="2022-12-03T13:50:09.5593948+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2aea7d3a-43cb-4a4e-9ee1-3f84b71b1a40" />
+    <UnitTestResult executionId="b7573cda-8c66-4d2a-b7d7-3f794c8811b8" testId="366cdaee-aa08-d1c0-2061-fd9b2cb1f942" testName="SearchProductName_ShouldFail_WhenProductNameIsNotExist" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0027905" startTime="2022-12-03T13:50:09.9181678+07:00" endTime="2022-12-03T13:50:09.9211691+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7573cda-8c66-4d2a-b7d7-3f794c8811b8" />
+    <UnitTestResult executionId="b936162f-1ec7-4e5d-b64b-605ddcdcbbc4" testId="9a302890-8df5-42f5-8ded-154b9d9065ea" testName="Customer_TestEmailShoudNotCorrectFormat (email.com)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0003661" startTime="2022-12-03T13:50:09.5453810+07:00" endTime="2022-12-03T13:50:09.5463806+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b936162f-1ec7-4e5d-b64b-605ddcdcbbc4" />
+    <UnitTestResult executionId="662cb68b-295c-486f-a89d-8ad4c341a5e9" testId="f5148043-2b6d-4e9f-b7bc-af2382947e71" testName="Customer_TestUserNameShouldCorrectFormat (user123)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0006346" startTime="2022-12-03T13:50:09.5413824+07:00" endTime="2022-12-03T13:50:09.5423822+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="662cb68b-295c-486f-a89d-8ad4c341a5e9" />
+    <UnitTestResult executionId="2f334c7f-c307-417f-8ef6-37ecb49304ff" testId="04b01562-f719-ed28-37e0-bbd48505e58c" testName="DeleteProduct_ShouldFail_WhenDifferentID" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0009647" startTime="2022-12-03T13:50:09.8871871+07:00" endTime="2022-12-03T13:50:09.8881886+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f334c7f-c307-417f-8ef6-37ecb49304ff" />
+    <UnitTestResult executionId="72ea3288-a0e5-45b2-ba59-23299306adc4" testId="c281c538-0733-881e-2e06-459bef606594" testName="PostProduct_ShouldFail_WhenUsernameIsAlreadyExist" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0029960" startTime="2022-12-03T13:50:09.8771934+07:00" endTime="2022-12-03T13:50:09.8811902+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72ea3288-a0e5-45b2-ba59-23299306adc4" />
+    <UnitTestResult executionId="dbed179e-d7a2-40bb-af26-f45dd6f17195" testId="5f1f1e08-50c2-4dd0-a898-bc2cd0105f76" testName="Customer_TestPasswordShoudNotCorrectFormat (12a)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0000418" startTime="2022-12-03T13:50:09.5443816+07:00" endTime="2022-12-03T13:50:09.5453810+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dbed179e-d7a2-40bb-af26-f45dd6f17195" />
+    <UnitTestResult executionId="2497f097-1baa-477e-9ad2-35641b5e5f15" testId="e75b5d24-fd61-4348-bae2-b35efd58338e" testName="Product_TestProductNameShouldCorrectFormat (Banh kem 1)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0004681" startTime="2022-12-03T13:50:09.5553752+07:00" endTime="2022-12-03T13:50:09.5563745+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2497f097-1baa-477e-9ad2-35641b5e5f15" />
+    <UnitTestResult executionId="75831f1a-49c6-49a9-93e7-c861ee5c30f9" testId="c958b9ec-21d6-5223-c10a-a1495efa5a79" testName="DeleteCustomer_ShouldReturnOK" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0018530" startTime="2022-12-03T13:50:09.8851885+07:00" endTime="2022-12-03T13:50:09.8871871+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75831f1a-49c6-49a9-93e7-c861ee5c30f9" />
+    <UnitTestResult executionId="a24c4b92-143c-4259-9adf-4a3728bc97ec" testId="9f4f8219-47af-48f8-a58a-1ae97a7eb00f" testName="Product_TestDescriptionShouldNotCorrectFormat (Banh kem @)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0006093" startTime="2022-12-03T13:50:09.5593948+07:00" endTime="2022-12-03T13:50:09.5603940+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a24c4b92-143c-4259-9adf-4a3728bc97ec" />
+    <UnitTestResult executionId="4d8bb01f-30b6-45d5-b116-9b31b3cfc874" testId="57c31345-d75a-45f8-a2c9-520e90cf77d5" testName="Customer_TestPhoneShouldNotCorrectFormat (0123a45)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0004722" startTime="2022-12-03T13:50:09.5473802+07:00" endTime="2022-12-03T13:50:09.5483797+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d8bb01f-30b6-45d5-b116-9b31b3cfc874" />
+    <UnitTestResult executionId="8072b52c-a469-4574-806b-83a889f9a4ee" testId="254f93d5-3610-aa9b-38f7-0f03bec9ccae" testName="GetProduct_ShouldReturnProductWithSameID" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0011938" startTime="2022-12-03T13:50:09.9071953+07:00" endTime="2022-12-03T13:50:09.9091943+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8072b52c-a469-4574-806b-83a889f9a4ee" />
+    <UnitTestResult executionId="dc9fcc87-ded7-40a5-b115-1c687b2df6c6" testId="fc7d486d-b35c-4ca7-9e3b-a978e5ac854c" testName="Customer_TestEmailShoudNotCorrectFormat (email@a@em.com)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0000415" startTime="2022-12-03T13:50:09.5453810+07:00" endTime="2022-12-03T13:50:09.5463806+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc9fcc87-ded7-40a5-b115-1c687b2df6c6" />
+    <UnitTestResult executionId="fe474b4a-d102-4397-bd1f-fd2fd336594c" testId="7367cbec-423a-9ed6-149e-5fb952505819" testName="DeleteProduct_ShouldFail_WhenDifferentID" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0012781" startTime="2022-12-03T13:50:09.9111932+07:00" endTime="2022-12-03T13:50:09.9121738+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe474b4a-d102-4397-bd1f-fd2fd336594c" />
+    <UnitTestResult executionId="a6ab511e-a86d-4996-a39f-0ce3980fc3c3" testId="c1ca8adf-b9a9-4968-a959-2f3c12135fc3" testName="Product_TestStockShouldCorrectFormat (5)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0004726" startTime="2022-12-03T13:50:09.5603940+07:00" endTime="2022-12-03T13:50:09.5613937+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6ab511e-a86d-4996-a39f-0ce3980fc3c3" />
+    <UnitTestResult executionId="43fcc5df-e8c3-4ba8-9a38-5db01df10b45" testId="025bad76-8622-b78e-39d3-cc31dc5a8c6f" testName="Customer_TestMissingEmail" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0003288" startTime="2022-12-03T13:50:09.4984295+07:00" endTime="2022-12-03T13:50:09.4984295+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43fcc5df-e8c3-4ba8-9a38-5db01df10b45" />
+    <UnitTestResult executionId="aa4b69ec-7844-4567-bb1c-73af01d80ddd" testId="20beaee9-1846-3ad6-666b-f7091613bd5d" testName="Customer_TestMissingUsername" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0012667" startTime="2022-12-03T13:50:09.4954306+07:00" endTime="2022-12-03T13:50:09.4974298+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa4b69ec-7844-4567-bb1c-73af01d80ddd" />
+    <UnitTestResult executionId="31543127-e859-4d7d-9333-36133678c67c" testId="f19c7fab-9c28-4201-8023-fdc77e753405" testName="Customer_TestUserNameShouldNotCorrectFormat (user12@)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0008837" startTime="2022-12-03T13:50:09.5423822+07:00" endTime="2022-12-03T13:50:09.5433817+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31543127-e859-4d7d-9333-36133678c67c" />
+    <UnitTestResult executionId="49004d0b-d39f-4d84-89a6-f60cccbe7a06" testId="5742f096-32b1-436c-b007-e6251a8ebeb5" testName="Customer_TestUserNameShouldNotCorrectFormat (user)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0002976" startTime="2022-12-03T13:50:09.5423822+07:00" endTime="2022-12-03T13:50:09.5433817+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49004d0b-d39f-4d84-89a6-f60cccbe7a06" />
+    <UnitTestResult executionId="d48dc322-6ae1-4c39-b6e9-dae8f20a916f" testId="b67373b6-aedf-4fc4-80c4-4c39725463a5" testName="Product_TestProductNameShouldCorrectFormat (Banh kem)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0000359" startTime="2022-12-03T13:50:09.5553752+07:00" endTime="2022-12-03T13:50:09.5563745+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d48dc322-6ae1-4c39-b6e9-dae8f20a916f" />
+    <UnitTestResult executionId="04190068-2848-44ab-a1f5-c45cf81d4dd1" testId="c4b87bd7-4e3e-2c82-486c-7fa1b504a7e3" testName="PostProduct_ShouldPass" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0098016" startTime="2022-12-03T13:50:09.8671958+07:00" endTime="2022-12-03T13:50:09.8771934+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="04190068-2848-44ab-a1f5-c45cf81d4dd1" />
+    <UnitTestResult executionId="bb8914bf-0200-40c0-aab4-90dc9cdf07ff" testId="b1c15ffe-0221-43c3-b89a-3dc07c145f3c" testName="Customer_TestPasswordShoudNotCorrectFormat (123)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0003685" startTime="2022-12-03T13:50:09.5443816+07:00" endTime="2022-12-03T13:50:09.5453810+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb8914bf-0200-40c0-aab4-90dc9cdf07ff" />
+    <UnitTestResult executionId="985d0054-fbeb-4980-826f-f4854110402e" testId="f6d6f49f-634d-4dc5-adfc-7dadcafb4987" testName="Product_TestPriceShouldNotCorrectFormat (-1)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0007565" startTime="2022-12-03T13:50:09.5573741+07:00" endTime="2022-12-03T13:50:09.5583734+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="985d0054-fbeb-4980-826f-f4854110402e" />
+    <UnitTestResult executionId="0b83b11c-20b3-4a8a-b23f-92e728ff42d5" testId="2088a9ce-b4f3-0915-e5aa-c8c826220cb8" testName="PutProduct_ShouldPass" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0003135" startTime="2022-12-03T13:50:09.8841886+07:00" endTime="2022-12-03T13:50:09.8841886+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b83b11c-20b3-4a8a-b23f-92e728ff42d5" />
+    <UnitTestResult executionId="a0513d3e-7651-4e1e-b657-8294948b3267" testId="60f1294c-1956-be96-cac6-206def93c18e" testName="Product_TestMissingProductNameImgDes" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0055948" startTime="2022-12-03T13:50:09.5483797+07:00" endTime="2022-12-03T13:50:09.5543760+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0513d3e-7651-4e1e-b657-8294948b3267" />
+    <UnitTestResult executionId="18162ea0-5ab5-4396-8d0b-0ec59ff61856" testId="d99c75ad-99eb-ee2b-fcbf-7fccf53d26f6" testName="Customer_TestMissingAddress" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0003440" startTime="2022-12-03T13:50:09.4984295+07:00" endTime="2022-12-03T13:50:09.4994288+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18162ea0-5ab5-4396-8d0b-0ec59ff61856" />
+    <UnitTestResult executionId="5f8b5847-fd71-484e-8419-1309cdde3b3c" testId="7e897ac3-3d0c-6681-a71a-5eff99c16119" testName="PostProduct_ShouldFail_WhenProductNameIsAlreadyExist" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0017829" startTime="2022-12-03T13:50:09.9041858+07:00" endTime="2022-12-03T13:50:09.9061962+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f8b5847-fd71-484e-8419-1309cdde3b3c" />
+    <UnitTestResult executionId="6be863f8-39c8-411f-ab6a-309041cd0341" testId="32821fd3-891c-428d-bb65-72182420c880" testName="Product_TestStockShouldCorrectFormat (0)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0000360" startTime="2022-12-03T13:50:09.5603940+07:00" endTime="2022-12-03T13:50:09.5613937+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6be863f8-39c8-411f-ab6a-309041cd0341" />
+    <UnitTestResult executionId="63a08fcd-6e75-40fd-848b-adfcc113fc01" testId="22b122a8-3c6a-4964-8e53-ca1842f6d202" testName="Customer_TestPhoneShouldCorrectFormat (012345678)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0005183" startTime="2022-12-03T13:50:09.5463806+07:00" endTime="2022-12-03T13:50:09.5473802+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63a08fcd-6e75-40fd-848b-adfcc113fc01" />
+    <UnitTestResult executionId="91814abe-fc89-4c99-b67d-05796f0e57d2" testId="8eaa342c-9260-63c6-ddfc-f58c843cfde1" testName="PostProduct_ShouldFail_WhenEmailIsAlreadyExist" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0027499" startTime="2022-12-03T13:50:09.8811902+07:00" endTime="2022-12-03T13:50:09.8841886+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91814abe-fc89-4c99-b67d-05796f0e57d2" />
+    <UnitTestResult executionId="066ba703-83cd-4d5b-a051-0b67c209a8a6" testId="5e0cfe69-534e-cd15-2d2e-bd77638436f1" testName="PutProduct_ShouldFail_WhenDifferentID" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0001606" startTime="2022-12-03T13:50:09.9071953+07:00" endTime="2022-12-03T13:50:09.9071953+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="066ba703-83cd-4d5b-a051-0b67c209a8a6" />
+    <UnitTestResult executionId="51c27ad8-501f-49f0-a1f8-4b7991733355" testId="f0b7fd8a-bf9f-4bdc-b2a3-c9e064ed6b26" testName="Product_TestProductNameShouldNotCorrectForm (Banh kem @)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0003821" startTime="2022-12-03T13:50:09.5563745+07:00" endTime="2022-12-03T13:50:09.5573741+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="51c27ad8-501f-49f0-a1f8-4b7991733355" />
+    <UnitTestResult executionId="3b328c61-9b69-4fcd-bf87-78146726ab89" testId="1c94a1e8-5ec0-cdcc-6e93-9c1efe410013" testName="GetCustomer_ShouldReturnAllCustomer" computerName="DESKTOP-G1ECRK6" duration="00:00:00.2625422" startTime="2022-12-03T13:50:09.5623929+07:00" endTime="2022-12-03T13:50:09.8262198+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b328c61-9b69-4fcd-bf87-78146726ab89" />
+    <UnitTestResult executionId="3c2a1e90-ef38-4123-99ab-0b3ef69db745" testId="8d04f794-6d0c-0ce7-197d-1cf665dd693f" testName="DeleteProduct_ShouldReturnOK" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0013162" startTime="2022-12-03T13:50:09.9091943+07:00" endTime="2022-12-03T13:50:09.9111932+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c2a1e90-ef38-4123-99ab-0b3ef69db745" />
+    <UnitTestResult executionId="7160d07b-a479-40c0-a951-f116555ce8b1" testId="64de8d32-03a9-4f82-b636-2b29dbad0ede" testName="Product_TestDescriptionShouldCorrectFormat (Banh kem duoc lam tu)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0004531" startTime="2022-12-03T13:50:09.5583734+07:00" endTime="2022-12-03T13:50:09.5593948+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7160d07b-a479-40c0-a951-f116555ce8b1" />
+    <UnitTestResult executionId="41cf5846-6302-4858-9eff-8a8f9c7019e0" testId="12b76b65-80ad-a507-dd6c-2263f9ecd6d7" testName="Customer_TestMissingPhone" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0003240" startTime="2022-12-03T13:50:09.4994288+07:00" endTime="2022-12-03T13:50:09.4994288+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="41cf5846-6302-4858-9eff-8a8f9c7019e0" />
+    <UnitTestResult executionId="13196929-7d81-4fcd-983b-e8febce2288a" testId="005b6b91-f5cd-4872-84aa-a689d5b804f4" testName="Product_TestStockShouldNotCorrectFormat (-1)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0006312" startTime="2022-12-03T13:50:09.5613937+07:00" endTime="2022-12-03T13:50:09.5623929+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13196929-7d81-4fcd-983b-e8febce2288a" />
+    <UnitTestResult executionId="e7e028ce-8398-40bf-b3f1-30964dd3aea6" testId="226d4aa3-3836-fc05-8b82-07f5c8ef6ffa" testName="GetCustomer_ShouldReturnProductWithSameID" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0414333" startTime="2022-12-03T13:50:09.8262198+07:00" endTime="2022-12-03T13:50:09.8671958+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7e028ce-8398-40bf-b3f1-30964dd3aea6" />
+    <UnitTestResult executionId="84c66e9e-184f-46d0-af34-03a913b3bf3d" testId="0db7e970-3d9a-a996-5921-1308e210d61f" testName="Customer_TestMissingName" computerName="DESKTOP-G1ECRK6" duration="00:00:00.1275660" startTime="2022-12-03T13:50:09.1086525+07:00" endTime="2022-12-03T13:50:09.4884126+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84c66e9e-184f-46d0-af34-03a913b3bf3d" />
+    <UnitTestResult executionId="307bed23-432a-4e46-b765-9c02ae5fb1ec" testId="ca560307-ae4f-3f4c-8d48-8ee64a5f194e" testName="Login_ShouldPass" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0057305" startTime="2022-12-03T13:50:09.8881886+07:00" endTime="2022-12-03T13:50:09.8941800+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="307bed23-432a-4e46-b765-9c02ae5fb1ec" />
+    <UnitTestResult executionId="a46824f9-8aff-4349-a9fc-371f780457e3" testId="54436e33-b628-4536-8796-f5f79c34d5ef" testName="Customer_TestNameShouldNotCorrectFormat (Nguyen Van @)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0007467" startTime="2022-12-03T13:50:09.5364079+07:00" endTime="2022-12-03T13:50:09.5374076+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a46824f9-8aff-4349-a9fc-371f780457e3" />
+    <UnitTestResult executionId="4dce4105-d470-42e0-8a75-7614b470c6fe" testId="11f5c6e1-577a-4fdc-8ccc-cab69f344245" testName="Customer_TestEmailShouldCorrectFormat (email@email.com)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0003905" startTime="2022-12-03T13:50:09.5453810+07:00" endTime="2022-12-03T13:50:09.5453810+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4dce4105-d470-42e0-8a75-7614b470c6fe" />
+    <UnitTestResult executionId="bf92a4ee-303a-40bd-99d5-2f0959dbfdad" testId="984646fb-a363-43af-bac2-2adc85b9f80f" testName="Product_TestPriceShouldCorrectFormat (100)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0003078" startTime="2022-12-03T13:50:09.5573741+07:00" endTime="2022-12-03T13:50:09.5573741+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf92a4ee-303a-40bd-99d5-2f0959dbfdad" />
+    <UnitTestResult executionId="57934cfd-f3ed-4567-a67c-fb3c72d5a8bc" testId="1508e0f8-8c4a-4318-9735-682ca4cdffa1" testName="Customer_TestPasswordShouldCorrectFormat (123abc)" computerName="DESKTOP-G1ECRK6" duration="00:00:00.0004015" startTime="2022-12-03T13:50:09.5433817+07:00" endTime="2022-12-03T13:50:09.5443816+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="57934cfd-f3ed-4567-a67c-fb3c72d5a8bc" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Customer_TestNameShouldCorrectFormat (Nguyen Van A)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="efff4de6-2564-4fab-a049-881a5b767d6b">
+      <Execution id="31faf3b0-0846-48c4-8b16-454ecbea2422" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationCustomer" name="Customer_TestNameShouldCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="PostProduct_ShouldFail_WhenProductNameIsAlreadyExist" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="7e897ac3-3d0c-6681-a71a-5eff99c16119">
+      <Execution id="5f8b5847-fd71-484e-8419-1309cdde3b3c" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ProductTest.TestProductController" name="PostProduct_ShouldFail_WhenProductNameIsAlreadyExist" />
+    </UnitTest>
+    <UnitTest name="Customer_TestMissingAddress" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="d99c75ad-99eb-ee2b-fcbf-7fccf53d26f6">
+      <Execution id="18162ea0-5ab5-4396-8d0b-0ec59ff61856" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationCustomer" name="Customer_TestMissingAddress" />
+    </UnitTest>
+    <UnitTest name="Customer_TestNameShouldNotCorrectFormat (Nguyen Van @)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="54436e33-b628-4536-8796-f5f79c34d5ef">
+      <Execution id="a46824f9-8aff-4349-a9fc-371f780457e3" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationCustomer" name="Customer_TestNameShouldNotCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="Customer_TestUserNameShouldCorrectFormat (user123)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="f5148043-2b6d-4e9f-b7bc-af2382947e71">
+      <Execution id="662cb68b-295c-486f-a89d-8ad4c341a5e9" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationCustomer" name="Customer_TestUserNameShouldCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="Customer_TestUserNameShouldNotCorrectFormat (user)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="5742f096-32b1-436c-b007-e6251a8ebeb5">
+      <Execution id="49004d0b-d39f-4d84-89a6-f60cccbe7a06" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationCustomer" name="Customer_TestUserNameShouldNotCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="Product_TestMissingProductNameImgDes" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="60f1294c-1956-be96-cac6-206def93c18e">
+      <Execution id="a0513d3e-7651-4e1e-b657-8294948b3267" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationProduct" name="Product_TestMissingProductNameImgDes" />
+    </UnitTest>
+    <UnitTest name="Product_TestStockShouldNotCorrectFormat (-1)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="005b6b91-f5cd-4872-84aa-a689d5b804f4">
+      <Execution id="13196929-7d81-4fcd-983b-e8febce2288a" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationProduct" name="Product_TestStockShouldNotCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="PutProduct_ShouldFail_WhenDifferentID" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="5e0cfe69-534e-cd15-2d2e-bd77638436f1">
+      <Execution id="066ba703-83cd-4d5b-a051-0b67c209a8a6" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ProductTest.TestProductController" name="PutProduct_ShouldFail_WhenDifferentID" />
+    </UnitTest>
+    <UnitTest name="Product_TestProductNameShouldNotCorrectForm (Banh kem @)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="f0b7fd8a-bf9f-4bdc-b2a3-c9e064ed6b26">
+      <Execution id="51c27ad8-501f-49f0-a1f8-4b7991733355" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationProduct" name="Product_TestProductNameShouldNotCorrectForm" />
+    </UnitTest>
+    <UnitTest name="Customer_TestPasswordShoudNotCorrectFormat (123)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="b1c15ffe-0221-43c3-b89a-3dc07c145f3c">
+      <Execution id="bb8914bf-0200-40c0-aab4-90dc9cdf07ff" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationCustomer" name="Customer_TestPasswordShoudNotCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="PostProduct_ShouldFail_WhenUsernameIsAlreadyExist" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="c281c538-0733-881e-2e06-459bef606594">
+      <Execution id="72ea3288-a0e5-45b2-ba59-23299306adc4" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.CustomerTest.CustomerTest" name="PostProduct_ShouldFail_WhenUsernameIsAlreadyExist" />
+    </UnitTest>
+    <UnitTest name="PostProduct_ShouldPass" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="c4b87bd7-4e3e-2c82-486c-7fa1b504a7e3">
+      <Execution id="04190068-2848-44ab-a1f5-c45cf81d4dd1" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.CustomerTest.CustomerTest" name="PostProduct_ShouldPass" />
+    </UnitTest>
+    <UnitTest name="PutProduct_ShouldPass" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="2088a9ce-b4f3-0915-e5aa-c8c826220cb8">
+      <Execution id="0b83b11c-20b3-4a8a-b23f-92e728ff42d5" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.CustomerTest.CustomerTest" name="PutProduct_ShouldPass" />
+    </UnitTest>
+    <UnitTest name="Customer_TestEmailShouldCorrectFormat (email@email.com)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="11f5c6e1-577a-4fdc-8ccc-cab69f344245">
+      <Execution id="4dce4105-d470-42e0-8a75-7614b470c6fe" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationCustomer" name="Customer_TestEmailShouldCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="PutProduct_ShouldFail_WhenDifferentID" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="eda6d204-10c8-e5af-8cb4-1c33b463f3e4">
+      <Execution id="491a9cb2-9e52-40a1-ab13-c5b2321bce92" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.CustomerTest.CustomerTest" name="PutProduct_ShouldFail_WhenDifferentID" />
+    </UnitTest>
+    <UnitTest name="GetCustomer_ShouldReturnAllCustomer" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="1c94a1e8-5ec0-cdcc-6e93-9c1efe410013">
+      <Execution id="3b328c61-9b69-4fcd-bf87-78146726ab89" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.CustomerTest.CustomerTest" name="GetCustomer_ShouldReturnAllCustomer" />
+    </UnitTest>
+    <UnitTest name="Customer_TestMissingPassword" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="fc9ecbd7-6723-4be0-8313-600893600228">
+      <Execution id="f31cae0c-a164-490b-bca8-b87ab8e91a9e" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationCustomer" name="Customer_TestMissingPassword" />
+    </UnitTest>
+    <UnitTest name="Product_TestMissingDes" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="4ff9ca89-46e5-54aa-a1ae-18c5583da2f9">
+      <Execution id="462117b1-1a70-4409-843d-388620ab08f9" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationProduct" name="Product_TestMissingDes" />
+    </UnitTest>
+    <UnitTest name="Product_TestDescriptionShouldNotCorrectFormat (Banh kem @)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="9f4f8219-47af-48f8-a58a-1ae97a7eb00f">
+      <Execution id="a24c4b92-143c-4259-9adf-4a3728bc97ec" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationProduct" name="Product_TestDescriptionShouldNotCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="DeleteProduct_ShouldFail_WhenDifferentID" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="7367cbec-423a-9ed6-149e-5fb952505819">
+      <Execution id="fe474b4a-d102-4397-bd1f-fd2fd336594c" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ProductTest.TestProductController" name="DeleteProduct_ShouldFail_WhenDifferentID" />
+    </UnitTest>
+    <UnitTest name="Customer_TestMissingPhone" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="12b76b65-80ad-a507-dd6c-2263f9ecd6d7">
+      <Execution id="41cf5846-6302-4858-9eff-8a8f9c7019e0" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationCustomer" name="Customer_TestMissingPhone" />
+    </UnitTest>
+    <UnitTest name="Customer_TestEmailShoudNotCorrectFormat (email@a@em.com)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="fc7d486d-b35c-4ca7-9e3b-a978e5ac854c">
+      <Execution id="dc9fcc87-ded7-40a5-b115-1c687b2df6c6" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationCustomer" name="Customer_TestEmailShoudNotCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="PutProduct_ShouldReturnStatusCode" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="7aab228c-f89b-7c66-057a-ce05b15547a0">
+      <Execution id="52aeca98-bd65-46ea-a1a4-86de260fe1d4" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ProductTest.TestProductController" name="PutProduct_ShouldReturnStatusCode" />
+    </UnitTest>
+    <UnitTest name="Customer_TestNameShouldNotCorrectFormat (Nguyen Van 1)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="b6ee13d5-d303-44c6-b54b-8636af897275">
+      <Execution id="33fa9d48-f5dc-4dd2-8450-0bd64ef2cedb" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationCustomer" name="Customer_TestNameShouldNotCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="GetCustomer_ShouldReturnProductWithSameID" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="226d4aa3-3836-fc05-8b82-07f5c8ef6ffa">
+      <Execution id="e7e028ce-8398-40bf-b3f1-30964dd3aea6" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.CustomerTest.CustomerTest" name="GetCustomer_ShouldReturnProductWithSameID" />
+    </UnitTest>
+    <UnitTest name="Customer_TestPhoneShouldNotCorrectFormat (0)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="b8b308c8-36b8-4738-9ada-beda14c59be6">
+      <Execution id="d84f4512-3520-4061-98fe-29bd17fef2f7" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationCustomer" name="Customer_TestPhoneShouldNotCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="Product_TestDescriptionShouldCorrectFormat (Banh kem duoc lam tu)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="64de8d32-03a9-4f82-b636-2b29dbad0ede">
+      <Execution id="7160d07b-a479-40c0-a951-f116555ce8b1" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationProduct" name="Product_TestDescriptionShouldCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="Product_TestStockShouldCorrectFormat (0)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="32821fd3-891c-428d-bb65-72182420c880">
+      <Execution id="6be863f8-39c8-411f-ab6a-309041cd0341" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationProduct" name="Product_TestStockShouldCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="SearchProductName_ShouldPass" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="36ed6ca4-0db2-2d0a-6cb0-0c59a9e924cf">
+      <Execution id="7e71349a-0137-4a64-8f06-d578b63879ff" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ProductTest.TestProductController" name="SearchProductName_ShouldPass" />
+    </UnitTest>
+    <UnitTest name="Product_TestProductNameShouldCorrectFormat (Banh kem 1)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="e75b5d24-fd61-4348-bae2-b35efd58338e">
+      <Execution id="2497f097-1baa-477e-9ad2-35641b5e5f15" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationProduct" name="Product_TestProductNameShouldCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="DeleteProduct_ShouldFail_WhenDifferentID" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="04b01562-f719-ed28-37e0-bbd48505e58c">
+      <Execution id="2f334c7f-c307-417f-8ef6-37ecb49304ff" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.CustomerTest.CustomerTest" name="DeleteProduct_ShouldFail_WhenDifferentID" />
+    </UnitTest>
+    <UnitTest name="Customer_TestPhoneShouldCorrectFormat (012345678)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="22b122a8-3c6a-4964-8e53-ca1842f6d202">
+      <Execution id="63a08fcd-6e75-40fd-848b-adfcc113fc01" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationCustomer" name="Customer_TestPhoneShouldCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="PostProduct_ShouldFail_WhenEmailIsAlreadyExist" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="8eaa342c-9260-63c6-ddfc-f58c843cfde1">
+      <Execution id="91814abe-fc89-4c99-b67d-05796f0e57d2" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.CustomerTest.CustomerTest" name="PostProduct_ShouldFail_WhenEmailIsAlreadyExist" />
+    </UnitTest>
+    <UnitTest name="Product_TestMissingImg" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="efefff88-9beb-6e8e-8283-51f49b901a25">
+      <Execution id="d355c80f-4b9d-4152-9d97-0d59f519a358" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationProduct" name="Product_TestMissingImg" />
+    </UnitTest>
+    <UnitTest name="SearchProductName_ShouldFail_WhenProductNameIsNotExist" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="366cdaee-aa08-d1c0-2061-fd9b2cb1f942">
+      <Execution id="b7573cda-8c66-4d2a-b7d7-3f794c8811b8" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ProductTest.TestProductController" name="SearchProductName_ShouldFail_WhenProductNameIsNotExist" />
+    </UnitTest>
+    <UnitTest name="Customer_TestPhoneShouldNotCorrectFormat (0123a45)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="57c31345-d75a-45f8-a2c9-520e90cf77d5">
+      <Execution id="4d8bb01f-30b6-45d5-b116-9b31b3cfc874" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationCustomer" name="Customer_TestPhoneShouldNotCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="GetProducts_ShouldReturnAllProducts" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="6357c20f-40a7-14c0-d874-401307dea887">
+      <Execution id="3629ee79-0767-41a2-b045-a09fba309ef1" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ProductTest.TestProductController" name="GetProducts_ShouldReturnAllProducts" />
+    </UnitTest>
+    <UnitTest name="Product_TestProductNameShouldCorrectFormat (Banh kem)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="b67373b6-aedf-4fc4-80c4-4c39725463a5">
+      <Execution id="d48dc322-6ae1-4c39-b6e9-dae8f20a916f" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationProduct" name="Product_TestProductNameShouldCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="Product_TestPriceShouldNotCorrectFormat (-1)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="f6d6f49f-634d-4dc5-adfc-7dadcafb4987">
+      <Execution id="985d0054-fbeb-4980-826f-f4854110402e" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationProduct" name="Product_TestPriceShouldNotCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="DeleteCustomer_ShouldReturnOK" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="c958b9ec-21d6-5223-c10a-a1495efa5a79">
+      <Execution id="75831f1a-49c6-49a9-93e7-c861ee5c30f9" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.CustomerTest.CustomerTest" name="DeleteCustomer_ShouldReturnOK" />
+    </UnitTest>
+    <UnitTest name="Login_ShouldFail_WhenDifferenUsernamOrPassword" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="76c4d96b-7d0c-d16c-988b-14d86da6d1cc">
+      <Execution id="a67f8dbb-2321-45d4-a163-6c7cbc214001" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.CustomerTest.CustomerTest" name="Login_ShouldFail_WhenDifferenUsernamOrPassword" />
+    </UnitTest>
+    <UnitTest name="Product_TestDescriptionShouldCorrectFormat (Duoc xuat xu tu Cali)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="f8ff43a8-7de9-46ef-952c-b5971c321722">
+      <Execution id="2aea7d3a-43cb-4a4e-9ee1-3f84b71b1a40" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationProduct" name="Product_TestDescriptionShouldCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="Customer_TestMissingUsername" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="20beaee9-1846-3ad6-666b-f7091613bd5d">
+      <Execution id="aa4b69ec-7844-4567-bb1c-73af01d80ddd" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationCustomer" name="Customer_TestMissingUsername" />
+    </UnitTest>
+    <UnitTest name="Customer_TestPasswordShouldCorrectFormat (123abc)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="1508e0f8-8c4a-4318-9735-682ca4cdffa1">
+      <Execution id="57934cfd-f3ed-4567-a67c-fb3c72d5a8bc" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationCustomer" name="Customer_TestPasswordShouldCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="PostProduct_ShouldPass" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="274b245a-cbd9-cf4d-aa18-0a01d76891dc">
+      <Execution id="d93796ac-b70a-45c0-8958-cb60349babb4" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ProductTest.TestProductController" name="PostProduct_ShouldPass" />
+    </UnitTest>
+    <UnitTest name="Product_TestStockShouldCorrectFormat (5)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="c1ca8adf-b9a9-4968-a959-2f3c12135fc3">
+      <Execution id="a6ab511e-a86d-4996-a39f-0ce3980fc3c3" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationProduct" name="Product_TestStockShouldCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="Product_TestPriceShouldCorrectFormat (100)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="984646fb-a363-43af-bac2-2adc85b9f80f">
+      <Execution id="bf92a4ee-303a-40bd-99d5-2f0959dbfdad" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationProduct" name="Product_TestPriceShouldCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="Customer_TestUserNameShouldNotCorrectFormat (user12@)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="f19c7fab-9c28-4201-8023-fdc77e753405">
+      <Execution id="31543127-e859-4d7d-9333-36133678c67c" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationCustomer" name="Customer_TestUserNameShouldNotCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="Customer_TestMissingEmail" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="025bad76-8622-b78e-39d3-cc31dc5a8c6f">
+      <Execution id="43fcc5df-e8c3-4ba8-9a38-5db01df10b45" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationCustomer" name="Customer_TestMissingEmail" />
+    </UnitTest>
+    <UnitTest name="GetProduct_ShouldReturnProductWithSameID" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="254f93d5-3610-aa9b-38f7-0f03bec9ccae">
+      <Execution id="8072b52c-a469-4574-806b-83a889f9a4ee" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ProductTest.TestProductController" name="GetProduct_ShouldReturnProductWithSameID" />
+    </UnitTest>
+    <UnitTest name="Customer_TestEmailShoudNotCorrectFormat (email.com)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="9a302890-8df5-42f5-8ded-154b9d9065ea">
+      <Execution id="b936162f-1ec7-4e5d-b64b-605ddcdcbbc4" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationCustomer" name="Customer_TestEmailShoudNotCorrectFormat" />
+    </UnitTest>
+    <UnitTest name="DeleteProduct_ShouldReturnOK" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="8d04f794-6d0c-0ce7-197d-1cf665dd693f">
+      <Execution id="3c2a1e90-ef38-4123-99ab-0b3ef69db745" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ProductTest.TestProductController" name="DeleteProduct_ShouldReturnOK" />
+    </UnitTest>
+    <UnitTest name="Customer_TestMissingName" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="0db7e970-3d9a-a996-5921-1308e210d61f">
+      <Execution id="84c66e9e-184f-46d0-af34-03a913b3bf3d" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationCustomer" name="Customer_TestMissingName" />
+    </UnitTest>
+    <UnitTest name="Login_ShouldPass" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="ca560307-ae4f-3f4c-8d48-8ee64a5f194e">
+      <Execution id="307bed23-432a-4e46-b765-9c02ae5fb1ec" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.CustomerTest.CustomerTest" name="Login_ShouldPass" />
+    </UnitTest>
+    <UnitTest name="Customer_TestPasswordShoudNotCorrectFormat (12a)" storage="d:\x\cakeshop\cakeshop.tests\bin\debug\cakeshop.tests.dll" id="5f1f1e08-50c2-4dd0-a898-bc2cd0105f76">
+      <Execution id="dbed179e-d7a2-40bb-af26-f45dd6f17195" />
+      <TestMethod codeBase="D:\x\CakeShop\CakeShop.Tests\bin\Debug\CakeShop.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CakeShop.ValidationTesting.TestValidationCustomer" name="Customer_TestPasswordShoudNotCorrectFormat" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="274b245a-cbd9-cf4d-aa18-0a01d76891dc" executionId="d93796ac-b70a-45c0-8958-cb60349babb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76c4d96b-7d0c-d16c-988b-14d86da6d1cc" executionId="a67f8dbb-2321-45d4-a163-6c7cbc214001" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eda6d204-10c8-e5af-8cb4-1c33b463f3e4" executionId="491a9cb2-9e52-40a1-ab13-c5b2321bce92" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="efefff88-9beb-6e8e-8283-51f49b901a25" executionId="d355c80f-4b9d-4152-9d97-0d59f519a358" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="efff4de6-2564-4fab-a049-881a5b767d6b" executionId="31faf3b0-0846-48c4-8b16-454ecbea2422" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36ed6ca4-0db2-2d0a-6cb0-0c59a9e924cf" executionId="7e71349a-0137-4a64-8f06-d578b63879ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6357c20f-40a7-14c0-d874-401307dea887" executionId="3629ee79-0767-41a2-b045-a09fba309ef1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8b308c8-36b8-4738-9ada-beda14c59be6" executionId="d84f4512-3520-4061-98fe-29bd17fef2f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7aab228c-f89b-7c66-057a-ce05b15547a0" executionId="52aeca98-bd65-46ea-a1a4-86de260fe1d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6ee13d5-d303-44c6-b54b-8636af897275" executionId="33fa9d48-f5dc-4dd2-8450-0bd64ef2cedb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ff9ca89-46e5-54aa-a1ae-18c5583da2f9" executionId="462117b1-1a70-4409-843d-388620ab08f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc9ecbd7-6723-4be0-8313-600893600228" executionId="f31cae0c-a164-490b-bca8-b87ab8e91a9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f8ff43a8-7de9-46ef-952c-b5971c321722" executionId="2aea7d3a-43cb-4a4e-9ee1-3f84b71b1a40" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="366cdaee-aa08-d1c0-2061-fd9b2cb1f942" executionId="b7573cda-8c66-4d2a-b7d7-3f794c8811b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a302890-8df5-42f5-8ded-154b9d9065ea" executionId="b936162f-1ec7-4e5d-b64b-605ddcdcbbc4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5148043-2b6d-4e9f-b7bc-af2382947e71" executionId="662cb68b-295c-486f-a89d-8ad4c341a5e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="04b01562-f719-ed28-37e0-bbd48505e58c" executionId="2f334c7f-c307-417f-8ef6-37ecb49304ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c281c538-0733-881e-2e06-459bef606594" executionId="72ea3288-a0e5-45b2-ba59-23299306adc4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f1f1e08-50c2-4dd0-a898-bc2cd0105f76" executionId="dbed179e-d7a2-40bb-af26-f45dd6f17195" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e75b5d24-fd61-4348-bae2-b35efd58338e" executionId="2497f097-1baa-477e-9ad2-35641b5e5f15" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c958b9ec-21d6-5223-c10a-a1495efa5a79" executionId="75831f1a-49c6-49a9-93e7-c861ee5c30f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f4f8219-47af-48f8-a58a-1ae97a7eb00f" executionId="a24c4b92-143c-4259-9adf-4a3728bc97ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="57c31345-d75a-45f8-a2c9-520e90cf77d5" executionId="4d8bb01f-30b6-45d5-b116-9b31b3cfc874" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="254f93d5-3610-aa9b-38f7-0f03bec9ccae" executionId="8072b52c-a469-4574-806b-83a889f9a4ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc7d486d-b35c-4ca7-9e3b-a978e5ac854c" executionId="dc9fcc87-ded7-40a5-b115-1c687b2df6c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7367cbec-423a-9ed6-149e-5fb952505819" executionId="fe474b4a-d102-4397-bd1f-fd2fd336594c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c1ca8adf-b9a9-4968-a959-2f3c12135fc3" executionId="a6ab511e-a86d-4996-a39f-0ce3980fc3c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="025bad76-8622-b78e-39d3-cc31dc5a8c6f" executionId="43fcc5df-e8c3-4ba8-9a38-5db01df10b45" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20beaee9-1846-3ad6-666b-f7091613bd5d" executionId="aa4b69ec-7844-4567-bb1c-73af01d80ddd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f19c7fab-9c28-4201-8023-fdc77e753405" executionId="31543127-e859-4d7d-9333-36133678c67c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5742f096-32b1-436c-b007-e6251a8ebeb5" executionId="49004d0b-d39f-4d84-89a6-f60cccbe7a06" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b67373b6-aedf-4fc4-80c4-4c39725463a5" executionId="d48dc322-6ae1-4c39-b6e9-dae8f20a916f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4b87bd7-4e3e-2c82-486c-7fa1b504a7e3" executionId="04190068-2848-44ab-a1f5-c45cf81d4dd1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b1c15ffe-0221-43c3-b89a-3dc07c145f3c" executionId="bb8914bf-0200-40c0-aab4-90dc9cdf07ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f6d6f49f-634d-4dc5-adfc-7dadcafb4987" executionId="985d0054-fbeb-4980-826f-f4854110402e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2088a9ce-b4f3-0915-e5aa-c8c826220cb8" executionId="0b83b11c-20b3-4a8a-b23f-92e728ff42d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60f1294c-1956-be96-cac6-206def93c18e" executionId="a0513d3e-7651-4e1e-b657-8294948b3267" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d99c75ad-99eb-ee2b-fcbf-7fccf53d26f6" executionId="18162ea0-5ab5-4396-8d0b-0ec59ff61856" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e897ac3-3d0c-6681-a71a-5eff99c16119" executionId="5f8b5847-fd71-484e-8419-1309cdde3b3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32821fd3-891c-428d-bb65-72182420c880" executionId="6be863f8-39c8-411f-ab6a-309041cd0341" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22b122a8-3c6a-4964-8e53-ca1842f6d202" executionId="63a08fcd-6e75-40fd-848b-adfcc113fc01" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8eaa342c-9260-63c6-ddfc-f58c843cfde1" executionId="91814abe-fc89-4c99-b67d-05796f0e57d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e0cfe69-534e-cd15-2d2e-bd77638436f1" executionId="066ba703-83cd-4d5b-a051-0b67c209a8a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0b7fd8a-bf9f-4bdc-b2a3-c9e064ed6b26" executionId="51c27ad8-501f-49f0-a1f8-4b7991733355" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c94a1e8-5ec0-cdcc-6e93-9c1efe410013" executionId="3b328c61-9b69-4fcd-bf87-78146726ab89" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d04f794-6d0c-0ce7-197d-1cf665dd693f" executionId="3c2a1e90-ef38-4123-99ab-0b3ef69db745" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64de8d32-03a9-4f82-b636-2b29dbad0ede" executionId="7160d07b-a479-40c0-a951-f116555ce8b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="12b76b65-80ad-a507-dd6c-2263f9ecd6d7" executionId="41cf5846-6302-4858-9eff-8a8f9c7019e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="005b6b91-f5cd-4872-84aa-a689d5b804f4" executionId="13196929-7d81-4fcd-983b-e8febce2288a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="226d4aa3-3836-fc05-8b82-07f5c8ef6ffa" executionId="e7e028ce-8398-40bf-b3f1-30964dd3aea6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0db7e970-3d9a-a996-5921-1308e210d61f" executionId="84c66e9e-184f-46d0-af34-03a913b3bf3d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca560307-ae4f-3f4c-8d48-8ee64a5f194e" executionId="307bed23-432a-4e46-b765-9c02ae5fb1ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="54436e33-b628-4536-8796-f5f79c34d5ef" executionId="a46824f9-8aff-4349-a9fc-371f780457e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11f5c6e1-577a-4fdc-8ccc-cab69f344245" executionId="4dce4105-d470-42e0-8a75-7614b470c6fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="984646fb-a363-43af-bac2-2adc85b9f80f" executionId="bf92a4ee-303a-40bd-99d5-2f0959dbfdad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1508e0f8-8c4a-4318-9735-682ca4cdffa1" executionId="57934cfd-f3ed-4567-a67c-fb3c72d5a8bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="56" executed="56" passed="56" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

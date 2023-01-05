@@ -1,0 +1,12 @@
+Yêu cầu: đã cài đặt Visual Studio Code, Visual Studio, ASP .NET
+
+Sau khi tải file về, giải nén
+
+Mở file sql và tiến hành chạy tạo bảng và insert dữ liệu
+
+Đưa phần fe vào Visual Studio Code, chọn terminal WebCake gõ yarn dev, tương tự với AdminCake
+
+Mở ApiFood.sln và tiến hành chạy IIS
+
+tài khoản admin: toan
+password: 123456
